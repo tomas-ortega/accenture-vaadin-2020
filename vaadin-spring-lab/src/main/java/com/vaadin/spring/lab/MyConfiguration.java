@@ -13,8 +13,13 @@ public class MyConfiguration {
 		return new Student();
 	}
 	
-	@Bean
-	public Address getAddress() {
-		return new Address();
+	@Bean(name="1")
+	public Address getAddress1() {
+		return new Address("1");
+	}
+	
+	@Bean(name="2")
+	public Address getAddress2() {
+		return new Address("2");
 	}
 }

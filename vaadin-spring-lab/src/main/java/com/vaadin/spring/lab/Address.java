@@ -3,8 +3,8 @@ package com.vaadin.spring.lab;
 public class Address {
 	private String address;
 	
-	public Address() {
-		this.address = "Student Secret Data!";
+	public Address(String address) {
+		this.address = address;
 	}
 
 	public String getAddress() {

@@ -1,11 +1,13 @@
 package com.vaadin.spring.lab;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Student {
 	private String studentName;
 	
 	@Autowired
+	@Qualifier(value = "2")
 	private Address address;
 	
 
