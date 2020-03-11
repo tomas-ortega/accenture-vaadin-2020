@@ -1,4 +1,4 @@
-package com.vaadin.springboot.lab;
+package com.vaadin.springboot.integration.lab;
 
 import org.springframework.stereotype.Component;
 

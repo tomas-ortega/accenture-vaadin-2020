@@ -1,4 +1,4 @@
-package com.vaadin.springboot.lab;
+package com.vaadin.springboot.integration.lab;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
